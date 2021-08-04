@@ -28,7 +28,7 @@ function setup(){
 }
 
 function draw(){
-    background("red")
+    background(backgroundImage)
     
     if(!hasDocked){
         spacecraft.x = spacecraft.x + random(-1,1);
